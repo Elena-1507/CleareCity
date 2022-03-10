@@ -1,0 +1,32 @@
+@import "normolize.scss";
+
+.wrapper{
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+} 
+
+@import "header.scss";
+@import "block1.scss";
+@import "benefits.scss";
+@import "servis.scss";
+@import "recall.scss"; 
+@import "form.scss";
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.contact {
+    width: 290px;
+    font-size: 28px;
+        
+}
+
+.text_spb {
+    font-size: 28px;
+    width: 330px;
+}

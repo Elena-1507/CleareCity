@@ -1,0 +1,29 @@
+.title {
+    font-size: 36px;
+    line-height: 53px;
+    color: #14286F;
+    text-align: center; 
+}
+.title__ben {
+   visibility: hidden;
+}
+.flexcon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.ben__item {
+    width: 235px;
+    img {
+        width: 155px;
+        height: 155px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+.ben__text {
+    font-weight: 500;
+    font-size: 24.0938px;
+    line-height: 36px;
+    text-align: center;
+}

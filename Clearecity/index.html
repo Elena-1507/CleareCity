@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Чистый город</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="src/img/logo.png" alt="Логотип Чистый город">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul class="menu">
+                    <li class="menu__item">Главная</li>
+                    <li class="menu__item">Услуги</li>
+                    <li class="menu__item">Цены</li>
+                    <li class="menu__item">Гарантии</li>
+                </ul>
+            </nav>
+            <div class="telefon">
+                <img src="src/img/telicon.png" alt="Телефон">
+                <div class="tel">
+                    <a href="tel:+79111802919" class="telefon">+7 911 180 2919</a>
+                    <button class="btn btn__tel">Перезвоните мне</button>
+                </div>
+            </div>
+        </header>
+        </div>
+        <section class="block1">
+            <div class="container">
+            <div class="fon">
+                <h1>Профессиональное благоустройство участков 
+                    в Санкт-Петербурге и Ленинградской области
+                </h1>              
+            </div>
+            <a href="#form">
+                <button class="btn btn__one">Узнать стоимость благоустройства</button>
+            </a>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+            <h2 class="title__ben">Преимущества</h2>
+            <div class="flexcon">
+            <div class="ben__item">
+                <img src="src/img/molot.png" alt="Инструменты">
+                <p class="ben__text">Профессиональный инструмент</p>
+            </div>
+            <div class="ben__item">
+                <img src="src/img/time.png" alt="Часы">
+                <p class="ben__text">Свои бригады! Работаем быстро</p>
+            </div>
+            <div class="ben__item">
+                <img src="src/img/sale.png" alt="Гарантия низкой цены">
+                <p class="ben__text">Гарантия низкой цены</p>
+            </div>
+            <div class="ben__item">
+                <img src="src/img/best.png" alt="Качество">
+                <p class="ben__text">Качественно выполняем работу</p>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section class="services">
+            <div class="container">
+            <h2 class="title title__serv">Услуги</h2>
+            <div class="flexserv">
+            <div class="serv pocos">
+                <a href="#">
+                    <img src="src/img/pocos.jpg" alt="Услуга покос травы">
+                </a>
+                    <div class="text">
+                        <p>Покос травы</p>
+                        <a href="#" class="btn_podr">Подробнее</a>
+                    </div>
+                
+            </div>
+            <div class="serv snow">
+                <a href="#">
+                    <img src="src/img/snow.jpg" alt="Уборка снега">
+                </a>  
+                    <div class="text">
+                        <p>Уборка снега</p>
+                        <a href="#" class="btn_podr">Подробнее</a>
+                    </div>
+            </div>
+            <div class="serv uborka">
+                <a href="#">
+                    <img src="src/img/uborka.jpg" alt="Вывоз мусора">
+                </a>
+                    <div class="text">
+                        <p>Вывоз мусора</p>
+                        <a href="#" class="btn_podr">Подробнее</a>
+                    </div>
+            </div>
+            <div class="serv tree">
+                <a href="#">
+                    <img src="src/img/trees.jpg" alt="Обрезка деревьев">
+                </a>
+                    <div class="text">
+                        <p>Обрезка деревьев</p>
+                        <a href="#" class="btn_podr">Подробнее</a>
+                    </div>
+            </div>
+        </div>
+        </div>
+        </section>
+        <section class="recall">
+            <div class="container">
+            <h2 class="title title__recall">Отзывы о нашей работе</h2>
+            <div class="slider">
+                <div class="recall_block">
+                    <p class="recall_text">
+                        Нужно было расчистить участок от мусора для строительства дома. Обзвонила много компаний, никто не хотел ехать так далеко (садоводство Пупышево). Спасибо, ребятам из Чистого города. Приехали на следующий день. Сделали все очень хорошо. Спасибо!
+                    </p>
+                    <p class="recall_autor">Анна, Пупышево</p>
+                </div>
+                <div class="recall_block">
+                    <p class="recall_text">
+                        Спасибо компании Чистый город. Уже не первый год выручают с покосом травы на участке.
+                    </p>
+                    <p class="recall_autor">Алексей, Волхов</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="form" id="form">
+            <div class="container">
+            <h2 class="title title_form">Узнайте стоимость благоустройства вашего участка по фото!</h2>
+            <p class="form_text">Отправьте нам фотографию участка  и узнаете стоимость работ. <br>  Оператор перезвонит вам в ближайшее время.</p>
+            <form class="form_input" action="url" method="post">
+                <input class="input _name" type="text" name="Имя" placeholder="Ваше имя">
+                <input class="input _tel" type="text" name="Телефон" placeholder="Ваш телефон">
+                <input class="file" type="file" name="file" id="file">
+                <button type="submit" class="btn_podr btn_form">Отправить</button>
+            </form>
+        </div>
+        </section>
+        <footer>
+            <div class="container footer">
+            <div class="contact">
+                <h3>Свяжитесь с нами:</h3>
+                <a href="tel:+79111802919" class="tel1">+7 911 180 2919</a>
+                <a href="mailto:eln99@bk.ru">eln99@bk.ru</a>
+            </div>
+            <div class="logo__footer">
+                <img src="src/img/logo.png" alt="Логотип Чистый город">
+            </div>
+            <div class="text_spb">
+                Работаем по всей территории Санкт-Петербурга и Ленинградской области
+            </div>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
